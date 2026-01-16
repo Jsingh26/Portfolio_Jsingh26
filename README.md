@@ -3,7 +3,7 @@
 Welcome to the official repository for my **personal developer portfolio website**. This project showcases my skills, projects, and background in software development, designed to reflect my personal brand and technical capabilities.
 
 ## 🌐 Live Website
-[Visit Portfolio](https://portfolio-jsingh26.vercel.app/) <!-- Replace with actual link -->
+[Visit Portfolio](https://jsingh26.vercel.app/) <!-- Replace with actual link -->
 
 ## 📌 Features
 - Clean, responsive design
