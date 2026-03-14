@@ -49,59 +49,59 @@ const App = () => {
     </button>
   );
 
-  // Projects data
+  // Projects data - Updated from new resume
   const projects = [
     {
-      title: "Dine-n-Delight",
-      period: "Jan 2024 – Mar 2024",
-      description: "Node.js-based food delivery platform with authentication, order tracking, and MongoDB database.",
-      impact: "Processed 50+ mock orders; real-time simulation for delivery workflows.",
-      tech: ["Node.js", "MongoDB", "Express.js", "JavaScript"]
+      title: "AI Emotion Detection & Video Analytics System",
+      description: "Developed an AI-based emotion detection system using Python, DeepFace, and OpenCV to analyze facial emotions from videos and webcam feeds. Built a PyQt6 GUI supporting batch video processing and real-time emotion visualization. Generated visual analytics and exported emotion datasets to CSV.",
+      impact: "Complete emotion analytics pipeline with GUI and data export capabilities.",
+      tech: ["Python", "DeepFace", "OpenCV", "PyQt6", "Pandas"]
     },
     {
-      title: "SafeSphere",
-      period: "Nov 2023 – Dec 2023",
-      description: "Safety app with GPS tracking and SOS features using secure REST APIs.",
-      impact: "Finalist at college hackathon for innovative safety feature implementation.",
-      tech: ["React", "REST APIs", "GPS", "JavaScript"]
+      title: "MERN Stack Food Delivery Platform",
+      period: "Recent",
+      description: "Developed a full-stack food delivery platform using Node.js, Express, React, and MongoDB. Implemented authentication, order tracking, and RESTful APIs for efficient backend communication. Designed optimized database schemas for managing user and order data.",
+      impact: "Complete full-stack application with authentication and real-time order tracking.",
+      tech: ["Node.js", "Express", "React", "MongoDB"]
     },
     {
-      title: "Car Comparison Dashboard",
-      period: "Sep 2023",
-      description: "Streamlit dashboard to visualize car model data using Python and Excel inputs.",
-      impact: "Enabled filtering across 30+ models; aided users in decision-making.",
-      tech: ["Python", "Streamlit", "Excel", "Data Analysis"]
-    },
-    {
-      title: "Artify – Online Art Auction",
-      period: "Jul 2023 – Aug 2023",
-      description: "Full-stack LAMP application supporting artwork listings, bidding, and auction tracking.",
-      impact: "Mock auction used by 10+ test users to simulate real transactions.",
-      tech: ["PHP", "MySQL", "HTML/CSS", "JavaScript"]
+      title: "Real-Time Emergency SOS & GPS Tracking Application",
+      period: "Hackathon Project",
+      description: "Built a safety application with GPS tracking and SOS alerts using location-based services. Implemented real-time location sharing to improve emergency response.",
+      impact: "Selected as a finalist in a college hackathon.",
+      tech: ["JavaScript", "REST APIs", "GPS APIs"]
     }
   ];
 
-  // Skills data
+  // Skills data - Updated from new resume
   const skills = {
+    Programming: {
+      skills: ["Java", "Python", "C++", "JavaScript"],
+      icon: <Code className="skill-icon programming" />
+    },
     Frontend: {
-      skills: ["React.js", "HTML5/CSS3", "Tailwind", "JavaScript", "AngularJS", "SASS"],
+      skills: ["React.js", "HTML5", "CSS3", "Tailwind", "SASS"],
       icon: <Globe className="skill-icon frontend" />
     },
     Backend: {
-      skills: ["Node.js", "Express.js", "PHP"],
+      skills: ["Node.js", "Express.js", "PHP", "Flask"],
       icon: <Code className="skill-icon backend" />
     },
-    Database: {
+    Frameworks: {
+      skills: ["Streamlit", "Flask", "Express.js"],
+      icon: <Code className="skill-icon frameworks" />
+    },
+    Databases: {
       skills: ["MongoDB", "SQL"],
       icon: <Database className="skill-icon database" />
     },
-    Languages: {
-      skills: ["Java", "Python", "C++"],
-      icon: <Code className="skill-icon languages" />
-    },
     Tools: {
-      skills: ["Git", "GitHub", "Postman", "VS Code", "Tableau", "Excel"],
+      skills: ["Git", "GitHub", "Postman", "VS Code"],
       icon: <Award className="skill-icon tools" />
+    },
+    Concepts: {
+      skills: ["REST APIs", "Data Structures & Algorithms", "Agile Development", "Data Visualization"],
+      icon: <Award className="skill-icon concepts" />
     }
   };
 
@@ -154,7 +154,7 @@ const App = () => {
               Hi, I'm <span className="hero-name">Japinder</span>
             </h1>
             <p className="hero-subtitle">
-              Full-Stack Web Developer & Computer Science Student
+              Full-Stack Developer | Computer Science Undergraduate
             </p>
             <p className="hero-description">
               Passionate about building impactful web solutions with modern technologies
@@ -186,13 +186,10 @@ const App = () => {
             <div className="about-content">
               <h3>Computer Science Student & Full-Stack Developer</h3>
               <p>
-                I'm a passionate Computer Science student at Guru Gobind Singh Indraprastha University 
-                with a strong foundation in web development and software engineering. Currently maintaining 
-                a CGPA of 9.1/10, I combine academic excellence with practical experience.
-              </p>
-              <p>
-                My expertise spans across modern web technologies including React.js, Node.js, and Python. 
-                I enjoy solving complex problems and building applications that make a real impact.
+                Computer Science undergraduate passionate about building scalable software and AI-powered applications. 
+                Former Research Intern at DRDO, where I worked on physiological data analytics and interactive dashboards 
+                for research workflows. Experienced in full-stack development using React, Node.js, and Python, with a 
+                strong foundation in data analysis, backend systems, and problem solving.
               </p>
               
               <div className="contact-info">
@@ -295,18 +292,22 @@ const App = () => {
         <div className="section-container">
           <h2 className="section-title">Experience & Certifications</h2>
           
-          <div className="experience-grid">
+<div className="experience-grid">
             <div className="experience-card">
-              <h3 className="experience-title">Virtual Experience</h3>
+              <h3 className="experience-title">Research Intern</h3>
               <div className="experience-item">
-                <h4>Deloitte Australia Data Analytics Job Simulation</h4>
-                <p className="company">Participant – Forage (Remote)</p>
-                <p className="date">Jul 2025</p>
+                <h4>Defence Institute of Physiology and Allied Sciences (DRDO)</h4>
+                <p className="company">Delhi, India</p>
+                <p className="date">Aug 2025 – Feb 2026</p>
                 <ul className="experience-list">
-                  <li>• Completed Deloitte simulation focused on data analysis and forensic technology</li>
-                  <li>• Built a Tableau dashboard to identify downtime patterns and gender pay equity gaps</li>
-                  <li>• Used Excel for classification and analysis of equality scores, drawing business insights</li>
+                  <li>• Applied data science techniques to analyze physiological datasets supporting biostatistics research</li>
+                  <li>• Built Python data pipelines using Pandas and NumPy for data preprocessing and analysis</li>
+                  <li>• Developed a React + TypeScript dashboard for interactive research data visualization</li>
+                  <li>• Implemented secure data handling practices aligned with DRDO research standards</li>
                 </ul>
+                <div className="project-tech">
+                  <strong>Tech:</strong> Python, Pandas, NumPy, SQL, React, TypeScript, Tableau
+                </div>
               </div>
             </div>
             
@@ -316,14 +317,27 @@ const App = () => {
                 <div className="certification-item">
                   <h4>IBM: Full Stack Software Development</h4>
                   <p className="provider">Coursera</p>
-                  <p className="date">Jul–Aug 2024</p>
                 </div>
                 <div className="certification-item">
                   <h4>100xDevs Cohort 2.0</h4>
-                  <p className="provider">MERN Stack, DevOps, Open Source Projects</p>
-                  <p className="date">Jan–Apr 2024</p>
+                  <p className="provider">MERN Stack, DevOps</p>
                 </div>
               </div>
+            </div>
+
+            <div className="experience-card achievements-card">
+              <h3 className="experience-title">Achievements</h3>
+              <ul className="experience-list">
+                <li>• Solved 200+ problems on coding platforms focusing on Data Structures and Algorithms</li>
+              </ul>
+            </div>
+
+            <div className="experience-card extracurricular-card">
+              <h3 className="experience-title">Extracurricular</h3>
+              <ul className="experience-list">
+                <li>• Chief Magazine Editor -- Computer Science Department</li>
+                <li>• Participated in multiple inter-college hackathons and technical competitions</li>
+              </ul>
             </div>
           </div>
         </div>

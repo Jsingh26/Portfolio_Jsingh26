@@ -359,11 +359,13 @@ html {
   height: 24px;
 }
 
+.skill-icon.programming { color: #f59e0b; }
 .skill-icon.frontend { color: #2563eb; }
 .skill-icon.backend { color: #10b981; }
+.skill-icon.frameworks { color: #8b5cf6; }
 .skill-icon.database { color: #7c3aed; }
-.skill-icon.languages { color: #f59e0b; }
 .skill-icon.tools { color: #ef4444; }
+.skill-icon.concepts { color: #14b8a6; }
 
 .skill-title {
   font-size: 1.25rem;
@@ -458,7 +460,7 @@ html {
 /* Experience Section */
 .experience-grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 2rem;
 }
 
@@ -519,8 +521,16 @@ html {
   padding-left: 1.5rem;
 }
 
+.achievements-card {
+  border-left-color: #10b981;
+}
+
+.extracurricular-card {
+  border-left-color: #f59e0b;
+}
+
 .certification-item:nth-child(2) {
-  border-left-color: #7c3aed;
+  border-left-color: #f59e0b;
 }
 
 .certification-item h4 {
