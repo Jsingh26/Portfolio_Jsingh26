@@ -228,7 +228,7 @@ const projectsData: Project[] = [
     shortDesc: "Architected a full-stack AI support platform with RAG document retrieval indexing 10,000+ chunks.",
     longDesc: "Designed and built an enterprise support infrastructure with 20+ REST APIs, 15+ database entities, and a shared OpenAPI-generated client (using Orval) to streamline frontend-backend integration effort by 80%. Developed a RAG document retrieval pipeline indexing 10,000+ chunks (PDF/DOCX/TXT/MD) with sub-500ms query latency via custom PostgreSQL full-text search. Includes an embeddable React chat widget supporting 100+ concurrent conversations and RBAC workflows.",
     impact: "Reduces manual support intervention by 70% and cuts dev environment setup time by 85%.",
-    github: "https://github.com/Jsingh26/ai-customer-support-platform",
+    github: "https://github.com/Jsingh26/AI-SUPPORT-PLATFORM",
     badge: "Featured AI Build"
   },
   {
@@ -239,7 +239,7 @@ const projectsData: Project[] = [
     shortDesc: "Dual-stream neural network for spatial and frequency-domain AI deepfake image detection.",
     longDesc: "Research and web platform built to classify images as real or AI-generated using a spatial-frequency dual-stream cross-attention model. Evaluated on the 100,000-image CIFAKE dataset, attaining 94.5% accuracy, 93.1% precision, 95.9% recall, and 94.5% F1-score (+3.3 points over baseline EfficientNet-B4). Implemented using PyTorch DataParallel on 2x Tesla T4 GPUs. Includes a FastAPI and React.js web interface processing 500+ images/hour.",
     impact: "Published in Springer ICAMC 2026, New Delhi (Co-authored with Faisal Rais and Dr. Mohd Izhar).",
-    github: "https://github.com/Jsingh26/deepfake-detection",
+    github: "https://github.com/Jsingh26/dual-stream_deepfake_detection_model",
     badge: "Published Springer Research",
     creds: "https://github.com/Jsingh26"
   },
@@ -251,7 +251,7 @@ const projectsData: Project[] = [
     shortDesc: "Full-stack project tracker and budget analytics system built for physiological research labs (DRDO).",
     longDesc: "A complete, JWT-secured Project Management System built during DRDO internship replacing manual spreadsheet tracking across 20+ concurrent research projects. Features bcrypt-hashed RBAC workflows (Admin, Scientist, Pending approvals), a Streamlit budget tracking dashboard comparing utilized vs remaining research funds, and a Python (Pandas) analytics script analyzing monthly staff attendance logs.",
     impact: "Cuts manual attendance analysis and reporting workflows by 70%.",
-    github: "https://github.com/Jsingh26/pms-attendance-analytics"
+    github: "https://github.com/Jsingh26/PMS"
   },
   {
     id: 4,
@@ -261,7 +261,7 @@ const projectsData: Project[] = [
     shortDesc: "Computer vision recruitment tool analyzing observable facial expressions & confidence trends.",
     longDesc: "AI-powered interview dashboard prototype. Utilizes computer vision and PyTorch/DeepFace models to parse non-verbal cues (facial expressions, eye-gaze tracking, attention levels) from recorded or live video streams. Offers recruiters chronologically structured charts (Plotly) for decision support, while emphasizing fairness, ethical hiring filters, and future ATS integrations.",
     impact: "Enables structural behavioral evaluations during candidate screeners.",
-    github: "https://github.com/Jsingh26/neurovision-analyzer",
+    github: "https://github.com/Jsingh26/Interview-Analyser",
     badge: "Recruitment Prototype"
   },
   {
@@ -272,7 +272,7 @@ const projectsData: Project[] = [
     shortDesc: "Desktop PyQt6 application for real-time and batch emotion tracking on video feeds.",
     longDesc: "Developed a native desktop analytics tool to map facial expressions into 7 major emotion classes in real-time. Designed with a PyQt6 GUI displaying time-series histograms and confidence charts, calculating nervousness indicators, and exporting clean datasets in CSV for statistical evaluation.",
     impact: "Delivers a standalone statistical software client for behavioral laboratories.",
-    github: "https://github.com/Jsingh26/video-emotion-analyser"
+    github: "https://github.com/Jsingh26/Interview-Analyser"
   },
   {
     id: 6,
@@ -282,7 +282,7 @@ const projectsData: Project[] = [
     shortDesc: "SOS emergency portal featuring real-time location sharing and automated alert check-ins.",
     longDesc: "A personal security hub allowing users to trigger SOS emergency signals with live location coordinates, establish scheduled check-ins that alert contacts if missed, and post community safety warning points on a shared dashboard map.",
     impact: "Provides automated distress broadcasting with minimal user interactions.",
-    github: "https://github.com/Jsingh26/safesphere-portal"
+    github: "https://github.com/Jsingh26/SafeSphere"
   },
   {
     id: 7,
@@ -292,7 +292,7 @@ const projectsData: Project[] = [
     shortDesc: "Online bidding application for artwork with automated timers & bidding history.",
     longDesc: "Bidding and listing environment designed for artists and curators. Built using structured PHP and MySQL, supporting secure auctions, catalog listings, auto-closing listing timers, and immediate updates to bidding history tables.",
     impact: "Centralized bidding space for independent painting collections.",
-    github: "https://github.com/Jsingh26/artify-auction"
+    github: "https://github.com/Jsingh26/Artify"
   },
   {
     id: 8,
@@ -302,7 +302,7 @@ const projectsData: Project[] = [
     shortDesc: "Automotive survey data processing hub built with Streamlit and Plotly.",
     longDesc: "Data pipeline and web dashboard built to analyze multi-year consumer survey datasets. Implements granular cross-filters (models, price range, safety rating, fuel economy) and generates time-series charts to assist automotive researchers.",
     impact: "Converts tabular spreadsheet survey statistics into interactive research reports.",
-    github: "https://github.com/Jsingh26/car-sales-dashboard"
+    github: "https://github.com/Jsingh26/plot"
   }
 ];
 
